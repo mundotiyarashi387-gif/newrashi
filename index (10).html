@@ -1,0 +1,1366 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nailora - Press On Nails</title>
+
+<link href="https://chicinsights.com/wp-content/uploads/2025/03/classy-spring-nail-designs-6-e1742162958659.webp" >
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.box {
+  background: pink;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+}
+
+.box h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #e91e63;
+  text-align:center;
+}
+
+.box p {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.box a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.box a:hover {
+  color: #e91e63;
+  text-decoration: underline;
+}
+.quote-section {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.quote-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  max-width: 300px;
+  line-height: 1.5;
+/* zoom animation */
+  animation: zoomPulse 2s ease-in-out infinite;
+}
+
+/* zoom in-out effect */
+@keyframes zoomPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+  /* fade animation */
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
+}
+
+/* fade effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.section-title .icon {
+  font-size: 22px;
+  display: block;
+  color: #e91e63;
+  animation: pulse 1.2s infinite;
+}
+
+/* animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.section-title {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.section-title .icon {
+  font-size: 22px;
+  margin-bottom: 5px;
+  display: block;
+  color: #e91e63;
+}
+
+.section-title h2 {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+}
+/* ===== TOP DESIGN POSITION FIX ===== */
+
+.collection-top-design{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:18px;
+
+position:relative;
+top:40px;
+
+margin-bottom:60px;
+}
+/* ===== GLOW LINES ===== */
+
+.collection-top-design .line{
+width:100px;
+height:3px;
+
+background:linear-gradient(
+to right,
+transparent,
+#ff5ea8,
+transparent
+);
+
+box-shadow:
+0 0 12px #ff5ea8;
+}
+
+/* ===== HEART ===== */
+
+.heart-glow{
+font-size:42px;
+
+animation:heartPulse 1.8s infinite;
+
+filter:drop-shadow(0 0 15px #ff5ea8);
+}
+
+/* ===== ANIMATION ===== */
+
+@keyframes heartPulse{
+
+0%{
+transform:scale(1);
+}
+
+50%{
+transform:scale(1.25);
+}
+
+100%{
+transform:scale(1);
+}
+
+}
+/* ===== HEART ANIMATION ===== */
+
+.feature-card i{
+display:inline-block;
+font-size:32px;
+color:#ff5ea8;
+animation:heartZoom 1.5s infinite;
+}
+
+/* ZOOM IN OUT */
+
+@keyframes heartZoom{
+
+0%{
+transform:scale(1);
+}
+
+50%{
+transform:scale(1.4);
+}
+
+100%{
+transform:scale(1);
+}
+
+}
+
+/* ===== PRODUCT CARD ===== */
+
+.product-card{
+background:rgba(255,255,255,.05);
+padding:20px;
+border-radius:30px;
+backdrop-filter:blur(18px);
+text-align:center;
+border:1px solid rgba(255,255,255,.08);
+}
+
+.product-card img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:20px;
+margin-bottom:15px;
+}
+
+.product-card h3{
+font-size:24px;
+margin-bottom:10px;
+}
+
+.price{
+font-size:20px;
+color:#ff9bc7;
+margin-bottom:20px;
+}
+
+/* ===== BUTTON GROUP ===== */
+
+.button-group{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+
+
+/* ===== BUY NOW ===== */
+
+.buy-btn{
+display:inline-block;
+padding:15px;
+border-radius:50px;
+text-decoration:none;
+background:linear-gradient(45deg,#ff2d75,#ff76b2);
+color:white;
+font-weight:600;
+transition:.4s;
+}
+
+.buy-btn:hover{
+transform:translateY(-5px);
+box-shadow:0 0 25px rgba(255,94,168,.6);
+}
+
+/* ===== CALL NOW ===== */
+
+.call-btn{
+display:inline-block;
+padding:15px;
+border-radius:50px;
+text-decoration:none;
+border:2px solid white;
+color:white;
+font-weight:600;
+transition:.4s;
+}
+
+.call-btn:hover{
+background:white;
+color:black;
+}
+
+
+/* ===== CALL BUTTON ===== */
+
+.call-btn{
+display:inline-block;
+margin-top:15px;
+padding:15px 35px;
+border-radius:50px;
+text-decoration:none;
+color:white;
+font-weight:600;
+background:transparent;
+border:2px solid #ff5ea8;
+transition:.4s;
+}
+
+.call-btn:hover{
+background:#ff5ea8;
+box-shadow:0 0 25px rgba(255,94,168,.6);
+transform:translateY(-5px);
+}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#12030b;
+overflow-x:hidden;
+color:white;
+position:relative;
+}
+
+/* ===== BACKGROUND ===== */
+
+body::before{
+content:'';
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:
+radial-gradient(circle at top,#ff4f9f 0%,transparent 30%),
+radial-gradient(circle at bottom,#ff006a 0%,transparent 25%),
+linear-gradient(to bottom,#1a0008,#070003);
+z-index:-5;
+}
+
+/* ===== REAL BLINKING STARS ===== */
+
+.stars{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+overflow:hidden;
+z-index:-1;
+pointer-events:none;
+}
+
+/* STAR SHAPE */
+
+.stars span{
+position:absolute;
+color:white;
+font-size:14px;
+animation:starBlink 2s infinite alternate;
+text-shadow:
+0 0 8px #fff,
+0 0 15px #ff8fc2,
+0 0 25px #ff4f9f;
+}
+
+/* DIFFERENT STAR POSITIONS */
+
+.stars span:nth-child(1){
+top:10%;
+left:15%;
+animation-duration:1.8s;
+}
+
+.stars span:nth-child(2){
+top:25%;
+left:75%;
+animation-duration:2.2s;
+}
+
+.stars span:nth-child(3){
+top:40%;
+left:45%;
+animation-duration:1.5s;
+}
+
+.stars span:nth-child(4){
+top:60%;
+left:20%;
+animation-duration:2.8s;
+}
+
+.stars span:nth-child(5){
+top:80%;
+left:90%;
+animation-duration:1.9s;
+}
+
+.stars span:nth-child(6){
+top:15%;
+left:55%;
+animation-duration:2.4s;
+}
+
+.stars span:nth-child(7){
+top:72%;
+left:60%;
+animation-duration:1.6s;
+}
+
+.stars span:nth-child(8){
+top:55%;
+left:82%;
+animation-duration:2.5s;
+}
+
+.stars span:nth-child(9){
+top:88%;
+left:30%;
+animation-duration:1.7s;
+}
+
+.stars span:nth-child(10){
+top:35%;
+left:90%;
+animation-duration:2s;
+}
+
+/* BLINK + SIZE EFFECT */
+
+@keyframes starBlink{
+
+0%{
+opacity:.2;
+transform:scale(.5) rotate(0deg);
+}
+
+50%{
+opacity:1;
+transform:scale(1.8) rotate(180deg);
+}
+
+100%{
+opacity:.4;
+transform:scale(.8) rotate(360deg);
+}
+
+}
+
+/* ===== NAVBAR ===== */
+
+nav{
+width:100%;
+padding:25px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:fixed;
+top:0;
+z-index:999;
+background:rgba(0,0,0,.15);
+backdrop-filter:blur(15px);
+}
+
+.logo{
+font-size:40px;
+font-family:'Cormorant Garamond',serif;
+font-weight:700;
+color:white;
+}
+
+.logo span{
+display:block;
+font-size:13px;
+letter-spacing:4px;
+color:#ff9dc9;
+margin-top:-5px;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:35px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+font-size:15px;
+transition:.4s;
+}
+
+nav ul li a:hover{
+color:#ff5ea8;
+}
+
+/* ===== HERO ===== */
+
+.hero{
+min-height:100vh;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:150px 8% 80px;
+gap:50px;
+}
+
+.hero-text{
+flex:1;
+}
+
+.tag{
+display:inline-block;
+padding:10px 25px;
+border-radius:30px;
+border:1px solid #ff5ea8;
+margin-bottom:30px;
+color:#ff9dc9;
+background:rgba(255,255,255,.05);
+backdrop-filter:blur(10px);
+}
+
+.hero h1{
+font-size:95px;
+line-height:1;
+font-family:'Cormorant Garamond',serif;
+margin-bottom:10px;
+}
+
+.hero h2{
+font-size:55px;
+font-weight:300;
+color:#ff5ea8;
+font-family:cursive;
+margin-bottom:25px;
+}
+
+.hero p{
+font-size:18px;
+line-height:1.8;
+color:#ffd4e7;
+max-width:520px;
+margin-bottom:40px;
+}
+
+.btn{
+display:inline-block;
+padding:16px 38px;
+background:linear-gradient(45deg,#ff2d75,#ff76b2);
+border-radius:50px;
+text-decoration:none;
+color:white;
+font-weight:600;
+box-shadow:0 0 25px rgba(255,94,168,.6);
+transition:.4s;
+}
+
+.btn:hover{
+transform:translateY(-5px) scale(1.05);
+}
+
+/* ===== HERO IMAGE ===== */
+
+.hero-image{
+flex:1;
+display:flex;
+justify-content:center;
+align-items:center;
+position:relative;
+}
+
+.circle{
+position:absolute;
+width:520px;
+height:520px;
+border:5px solid #ff5ea8;
+border-radius:50%;
+box-shadow:0 0 40px #ff5ea8;
+}
+
+.platform{
+position:absolute;
+bottom:20px;
+width:450px;
+height:80px;
+background:linear-gradient(to right,#ff5ea8,#ff9cc5);
+border-radius:50%;
+filter:blur(2px);
+box-shadow:0 0 50px rgba(255,94,168,.8);
+}
+
+.product-box{
+width:420px;
+padding:25px;
+border-radius:35px;
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(20px);
+border:1px solid rgba(255,255,255,.1);
+box-shadow:0 0 50px rgba(255,94,168,.5);
+transform:rotate(-8deg);
+z-index:5;
+}
+
+.product-box img{
+width:100%;
+border-radius:25px;
+}
+
+/* ===== FEATURES SECTION ===== */
+
+.features{
+padding:60px 20px;
+display:flex;
+flex-direction:column;
+gap:30px;
+}
+
+/* ===== FEATURE BOX ===== */
+
+.feature-box{
+display:flex;
+align-items:center;
+gap:20px;
+
+background:rgba(255,255,255,.05);
+backdrop-filter:blur(18px);
+
+border:2px solid rgba(255,255,255,.08);
+
+padding:20px;
+border-radius:80px;
+
+box-shadow:
+0 0 25px rgba(255,94,168,.25);
+
+transition:.4s;
+}
+
+.feature-box:hover{
+transform:translateY(-8px);
+box-shadow:
+0 0 35px rgba(255,94,168,.5);
+}
+
+/* ===== ICON CIRCLE ===== */
+
+.icon-circle{
+min-width:90px;
+height:90px;
+border-radius:50%;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+font-size:38px;
+
+background:rgba(255,255,255,.06);
+
+border:2px solid #ff5ea8;
+
+box-shadow:
+0 0 20px rgba(255,94,168,.5);
+
+animation:iconGlow 2s infinite;
+}
+
+/* ===== TEXT ===== */
+
+.feature-text h3{
+font-size:34px;
+margin-bottom:8px;
+color:white;
+}
+
+.feature-text p{
+font-size:16px;
+line-height:1.5;
+color:#ffd3e5;
+}
+
+/* ===== GLOW EFFECT ===== */
+
+@keyframes iconGlow{
+
+0%{
+transform:scale(1);
+box-shadow:0 0 15px rgba(255,94,168,.4);
+}
+
+50%{
+transform:scale(1.08);
+box-shadow:0 0 30px rgba(255,94,168,.8);
+}
+
+100%{
+transform:scale(1);
+box-shadow:0 0 15px rgba(255,94,168,.4);
+}
+
+}
+
+/* ===== MOBILE ===== */
+
+@media(max-width:768px){
+
+.feature-box{
+padding:18px;
+gap:15px;
+}
+
+.icon-circle{
+min-width:75px;
+height:75px;
+font-size:30px;
+}
+
+.feature-text h3{
+font-size:22px;
+}
+
+.feature-text p{
+font-size:14px;
+}
+
+}
+
+
+
+
+
+/* ===== SECTION TITLE ===== */
+
+.section-title{
+text-align:center;
+font-size:55px;
+margin:90px 0 50px;
+font-family:'Cormorant Garamond',serif;
+color:#ffd3e5;
+}
+
+/* ===== COLLECTION ===== */
+
+
+
+
+
+.collection-card img{
+width:100%;
+height:280px;
+object-fit:cover;
+}
+
+.collection-content{
+padding:25px;
+text-align:center;
+}
+
+.collection-content h3{
+font-size:26px;
+margin-bottom:18px;
+}
+
+/* ===== PRODUCTS ===== */
+
+.product-grid{
+padding:0 8%;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.product-card{
+background:rgba(255,255,255,.05);
+padding:18px;
+border-radius:25px;
+border:1px solid rgba(255,255,255,.08);
+backdrop-filter:blur(18px);
+transition:.4s;
+}
+
+.product-card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 30px rgba(255,94,168,.5);
+}
+
+.product-card img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:20px;
+margin-bottom:15px;
+}
+
+.product-card h3{
+font-size:22px;
+margin-bottom:10px;
+}
+
+.price{
+color:#ff9bc7;
+margin-bottom:18px;
+font-size:18px;
+}
+
+/* ===== FOOTER ===== */
+
+footer{
+margin-top:100px;
+padding:45px 8%;
+text-align:center;
+background:rgba(255,255,255,.04);
+backdrop-filter:blur(10px);
+}
+
+footer p{
+color:#ffb6d2;
+}
+
+/* ===== MOBILE ===== */
+
+@media(max-width:950px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+.hero h1{
+font-size:65px;
+}
+
+.hero h2{
+font-size:40px;
+}
+
+.hero p{
+margin:auto auto 30px;
+}
+
+.circle{
+width:340px;
+height:340px;
+}
+
+.platform{
+width:300px;
+}
+
+.product-box{
+width:300px;
+}
+
+nav ul{
+display:none;
+}
+
+.section-title{
+font-size:40px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+  
+
+
+
+
+<!-- ===== REAL STARS HTML ===== -->
+
+<div class="stars">
+
+<span>✦</span>
+<span>✦</span>
+<span>✦</span>
+<span>✦</span>
+<span>✦</span>
+<span>✦</span>
+<span>✦</span>
+<span>✦</span>
+<span>✦</span>
+<span>✦</span>
+
+</div>
+
+<!-- ===== NAVBAR ===== -->
+
+<nav>
+
+<div class="logo">
+NAILORA
+<span>PRESS ON NAILS</span>
+</div>
+
+<ul>
+<li><a href="#">HOME</a></li>
+<li><a href="#">SHOP</a></li>
+<li><a href="#">COLLECTIONS</a></li>
+<li><a href="#">ABOUT</a></li>
+<li><a href="#">CONTACT</a></li>
+</ul>
+
+</nav>
+
+<!-- ===== HERO ===== -->
+
+<section class="hero">
+
+<div class="hero-text">
+
+<div class="tag">
+PREMIUM QUALITY
+</div>
+
+<h1>PRESS ON<br>NAILS</h1>
+
+<h2>Elevate Your Style</h2>
+
+<p><i>
+Salon quality nails in minutes. Reusable, durable and designed to perfection with luxury glossy finish🪄</i></p>
+
+<a href="#collections" class="btn"><i>
+SHOP NOW </i>
+</a>
+
+</div>
+<div class="quote-section">
+  <p class="quote-text"><i>
+    Your nails tell your story — make it beautiful ♡</i>
+  </p>
+</div>
+<div class="hero-image">
+
+<div class="circle"></div>
+
+<div class="platform"></div>
+
+<div class="product-box">
+
+<img src=" https://chicinsights.com/wp-content/uploads/2025/03/classy-spring-nail-designs-6-e1742162958659.webp">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===== FEATURES ===== -->
+
+<!-- ===== FEATURES SECTION ===== -->
+
+<section class="features">
+
+<!-- FEATURE 1 -->
+
+<div class="feature-box">
+
+<div class="icon-circle">
+💎
+</div>
+
+<div class="feature-text">
+
+<h3><i>High Quality</i></h3>
+
+<p>
+Premium materials for a flawless look
+</p>
+
+</div>
+
+</div>
+
+<!-- FEATURE 2 -->
+
+<div class="feature-box">
+
+<div class="icon-circle">
+💫
+</div>
+
+<div class="feature-text">
+
+<h3><i>Easy To Apply</i></h3>
+
+<p>
+No glue mess, just press & go
+</p>
+
+</div>
+
+</div>
+
+<!-- FEATURE 3 -->
+
+<div class="feature-box">
+
+<div class="icon-circle">
+♻️
+</div>
+
+<div class="feature-text">
+
+<h3><i>Reusable</i></h3>
+
+<p>
+Reuse your nails multiple times
+</p>
+
+</div>
+
+</div>
+
+</section>
+<!-- ===== COLLECTIONS ===== -->
+<!-- ===== DECOR ABOVE SHOP BY COLLECTION ===== -->
+
+<div class="collection-top-design">
+
+<div class="line"></div>
+
+<div class="heart-glow">♡</div>
+
+<div class="line"></div>
+
+</div>
+<h2 class="section-title"><i>
+Shop By Collection</i>
+</h2>
+
+<section class="collection-grid" id="collections">
+
+
+
+<div class="collection-card">
+
+<img src="https://www.thewonderforest.com/wp-content/uploads/2025/05/summer-mermaid-shell-nails.jpg">
+
+<div class="collection-content">
+
+<h3><i>Colourfull Design nails</i></h3>
+<div class="sizes">
+  <p>(Size-S,M,L)</p>
+  <div class="price">(Price ₹600)</div>
+<!-- BUY NOW BUTTON -->
+
+<a 
+href="https://wa.me/919871063872?text=Hi%20I%20want%20to%20buy%20the%20colorfull%20design%20Press%20On%20Nails"
+class="btn"
+target="_blank">
+
+BUY NOW
+
+</a>
+
+<!-- CALL NOW BUTTON -->
+
+<a 
+href="tel:+919871063872"
+class="call-btn">
+
+CALL NOW
+
+</a>
+
+</div>
+
+</div>
+
+<div class="collection-card">
+
+<img src=" https://nz-website-media-r2-pub.gocheckin.net/19061-new-5937/file1755660803186">
+
+<div class="collection-content">
+
+<h3><i>Luxury</i></h3>
+<div class="sizes">
+  <p>(Size-S,M,L)</p>
+ <div class="price">(Price ₹600)</div>
+<!-- BUY NOW BUTTON -->
+
+<a 
+href="https://wa.me/919871063872?text=Hi%20I%20want%20to%20buy%20the%20luxury%20Press%20On%20Nails"
+class="btn"
+target="_blank">
+
+BUY NOW
+
+</a>
+
+<!-- CALL NOW BUTTON -->
+
+<a 
+href="tel:+919871063872"
+class="call-btn">
+
+CALL NOW
+
+</a>
+
+</div>
+
+</div>
+
+
+
+<div class="collection-card">
+
+<img src=" https://www.beautyartgarden.com/cdn/shop/articles/handmade-elegance-why-our-handmade-press-on-nails-stand-out-269153.webp?v=1722326084&width=1100">
+
+<div class="collection-content">
+
+<h3><i>Custom press on nails</i></h3>
+<div class="sizes">
+  <p>(Size-S,M,L)</p>
+  <div class="price">(Price ₹600)</div>
+<!-- BUY NOW BUTTON -->
+
+<a 
+href="https://wa.me/919871063872?text=Hi%20I%20want%20to%20buy%20the%20custom%20%20Press%20On%20Nails"
+class="btn"
+target="_blank">
+
+BUY NOW
+
+</a>
+
+<!-- CALL NOW BUTTON -->
+
+<a 
+href="tel:+919871063872"
+class="call-btn">
+
+CALL NOW
+
+</a>
+
+</div>
+
+</div>
+
+
+
+
+
+</section>
+
+<!-- ===== BEST SELLERS ===== -->
+
+<div class="section-title">
+  <div class="icon">️☆</div>
+  <h2><b><i>Best Seller</i></b></h2>
+</div>
+
+<section class="product-grid">
+
+<div class="product-card">
+
+<img src=" https://i.pinimg.com/736x/52/2c/b5/522cb5d6c842ad7011a9320b471b46d8.jpg">
+
+<h3><i>Ready Made Nails</i></h3>
+<div class="sizes">
+  <p>(Size-S,M,L)</p>
+<div class="price">(Price ₹600)</div>
+
+
+
+<!-- BUY NOW -->
+
+<a 
+href="https://wa.me/919871063872?text=Hi%20I%20want%20to%20buy%20ready%20made%20press%20on%20Nails"
+class="buy-btn"
+target="_blank">
+
+BUY NOW
+
+</a>
+
+<!-- CALL NOW -->
+
+<a 
+href="tel:+919871063872"
+class="call-btn">
+
+CALL NOW
+
+</a>
+
+</div>
+
+
+</div>
+
+
+
+<div class="product-card">
+
+<img src=" https://i.etsystatic.com/59968963/r/il/ff9eaf/7990407571/il_794xN.7990407571_hwts.jpg">
+
+<h3><i>Floral Print</i></h3>
+<div class="sizes">
+  <p>(Size-S,M,L)</p>
+<div class="price">(Price ₹600)</div>
+
+<!-- BUY NOW -->
+
+<a 
+href="https://wa.me/919871063872?text=Hi%20I%20want%20to%20buy%20floral%20Nails"
+class="buy-btn"
+target="_blank">
+
+BUY NOW
+
+</a>
+
+<!-- CALL NOW -->
+
+<a 
+href="tel:+919871063872"
+class="call-btn">
+
+CALL NOW
+
+</a>
+
+</div>
+
+</div>
+
+<div class="product-card">
+
+<img src="https://i.etsystatic.com/65409060/r/il/803d06/7962306915/il_794xN.7962306915_d6ar.jpg">
+
+<h3><i>Bridal Nails</i> </h3>
+<div class="sizes">
+  <p>(Size-S,M,L)</p>
+<div class="price">(Price ₹600)</div>
+
+<!-- BUY NOW -->
+
+<a 
+href="https://wa.me/919871063872?text=Hi%20I%20want%20to%20buy%20bridal%20Nails"
+class="buy-btn"
+target="_blank">
+
+BUY NOW
+
+</a>
+
+<!-- CALL NOW -->
+
+<a 
+href="tel:+919871063872"
+class="call-btn">
+
+CALL NOW
+
+</a>
+
+</div>
+
+</div>
+
+<div class="product-card">
+
+<img src=" https://i.etsystatic.com/62872374/r/il/69daf9/7957744000/il_794xN.7957744000_l66i.jpg">
+
+<h3><i>Printed Nails</i></h3>
+<div class="sizes">
+  <p>(Size-S,M,L)</p>
+  
+</div>
+<div class="price">(Price ₹600)</div>
+
+<!-- BUY NOW -->
+
+<a 
+href="https://wa.me/919871063972?text=Hi%20I%20want%20to%20buy%20printed%20Nails"
+class="buy-btn"
+target="_blank">
+
+BUY NOW
+
+</a>
+
+<!-- CALL NOW -->
+
+<a 
+href="tel:+919871063872"
+class="call-btn">
+
+CALL NOW
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+<div class="container">
+
+  <!-- ABOUT US -->
+  <div class="box">
+    <h2>About Us</h2>
+    <p>
+      We create premium press-on nails with stylish designs to make your look elegant, trendy, and confident.
+    </p>
+  </div>
+
+  <!-- SHIPPING DETAILS -->
+  <div class="box">
+    <h2>Shipping Details</h2>
+    <p>
+      • Orders are processed within 24-48 hours<br>
+      • Delivery time: 3–7 working days<br>
+      • Free shipping on selected orders<br>
+      • Safe & secure packaging
+    </p>
+  </div>
+
+  <!-- CONTACT US -->
+  <div class="box">
+    <h2>Contact Us</h2>
+    <p>
+      📞 <a href="tel:+919871063872">+91 9871063872</a><br>
+      📸 Instagram: <a href="https://instagram.com/rashii.x99" target="_blank">@rashii.x99</a><br>
+      📧 Email: <a href="mailto:rashimundotiya@gmail.com">rashimundotiya@gmail.com</a><br>
+      📍 Address: Dtc Colony, Hari Nagar
+    </p>
+  </div>
+
+</div>
+<!-- ===== FOOTER ===== -->
+
+<footer>
+
+<p>
+© 2026 Nailora Press On Nails — All Rights Reserved.
+</p>
+
+</footer>
+
+</body>
+</html>
